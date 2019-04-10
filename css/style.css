@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Raleway:100,200,300,400,500,600,700,800,900|Yellowtail");
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+
+body {
+  line-height: 24px;
+  font-size: 14px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+}
+
+
+body.dark_bg {
+  background: url(../images/background.jpg) repeat scroll center center;
+  background-size: contain;
+}
+
+body .contentInner {
+  background: #efefef;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.pad {
+  padding: 0 68px;
+}
+
+.whiteBackground {
+  background-color: white;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.modal{
+  text-align: left;
+}
+
+/* Header
+============================================================================================ */
+.headerArea {
+  background: #6cdaff;
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  display: block;
+}
+
+.headerArea .navbar.navbar-light.navbar-expand-lg .navbar-brand {
+  padding: 0;
+  display: block;
+  vertical-align: middle;
+  line-height: 65px;
+}
+
+.headerArea .navbar.navbar-light.navbar-expand-lg .navbar-brand span {
+  display: inline-block;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 50px;
+}
+
+.headerArea .navbar.navbar-light.navbar-expand-lg .navbar-collapse .navbar-nav a {
+  padding-left: 17px;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #222222;
+  display: inline-block;
+  transition: all 400ms linear 0s;
+}
+
+.headerArea .navbar.navbar-light.navbar-expand-lg .navbar-collapse .navbar-nav a:hover, .headerArea .navbar.navbar-light.navbar-expand-lg .navbar-collapse .navbar-nav a:active{
+  color: #fff;
+}
+
+/* Content
+============================================================================================ */
+.mainContainer {
+  padding-top: 81px;
+}
+
+.contentSection {
+  padding-top: 66px;
+  padding-bottom: 40px;
+}
+
+.anchor{
+  display: block;
+  height: 81px;
+  margin-top: -81px;
+  visibility: hidden;
+}
+
+.contentSection {
+  text-align: center;
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.heading h2 span {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+}
+
+/* About Person area css
+============================================================================================ */
+.aboutArea {
+  margin-top: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.aboutArea .personImg {
+  max-width: 322px;
+}
+
+.aboutArea .personImg img {
+  max-width: 100%;
+}
+
+.aboutArea .personDetails {
+  margin-left: -30px;
+}
+
+.aboutArea .personDetails h3 {
+  font-size: 36px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-right: 40px;
+}
+
+.aboutArea .personDetails h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666666;
+  padding-bottom: 15px;
+}
+
+.aboutArea .personDetails p {
+  font-size: 13px;
+  line-height: 24px;
+  color: #333333;
+  font-weight: 500;
+}
+
+.aboutArea .personDetails .personInformation {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-right: 80px;
+}
+
+.aboutArea .personDetails .personInformation ul {
+  display: inline-block;
+}
+
+.aboutArea .personDetails .personInformation ul li p {
+  font-size: 13px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.aboutArea .personDetails .personInformation ul + ul {
+  padding-left: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .aboutArea .personDetails .personInformation ul + ul {
+    padding-left: 0px;
+  }
+}
+
+.aboutArea .personDetails .personInformation ul + ul li p {
+  font-size: 13px;
+  line-height: 26px;
+  color: #666666;
+}
+
+.socialIcon li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.socialIcon li a {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border: 1px solid;
+  display: block;
+  line-height: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.socialIcon li:nth-child(1) a {
+  color: #3b5998;
+  border-color: #3b5998;
+}
+
+.socialIcon li:nth-child(2) a {
+  color: #db4a39;
+  border-color: #db4a39;
+}
+
+.socialIcon li:nth-child(3) a {
+  color: #0077B5;
+  border-color: #0077B5;
+}
+
+/* skills
+============================================================================================ */
+.subHeading {
+  padding-top: 70px;
+}
+
+
+#skillsChart {
+  margin-top: 40px;
+  max-width: 100%;
+}
+
+#skillsCard {
+  margin-top: 40px;
+  height: 430px;
+  border: 1px solid rgba(108, 218, 255, 0.35);
+}
+
+#skillsList {
+  text-align: left;
+  font-size: 16px;
+}
+
+.list-group-item {
+  padding-top: 18px;
+  height: 85px;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 200;
+  border: 1px solid rgba(108, 218, 255, 0.15);
+}
+
+.list-group-item span {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+/* education
+============================================================================================ */
+.timeline {
+  padding-top: 55px;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.card-title {
+  margin-bottom: 5px;
+}
+
+.timelineDate {
+  font-weight: 200;
+}
+
+.timelineCard {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(108, 218, 255, 0.35);
+}
+
+.timelineDescription {
+  font-weight: 200;
+  margin-bottom: 6px;
+}
+
+.badgeHolder {
+  position: relative;
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
+
+.badgeHolder h5{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.line {
+  margin-top: -40px;
+  height: 100px;
+}
+
+.lineCol {
+  border-right: 1px solid rgba(108, 218, 255, 0.15);
+}
+@media only screen and (max-width: 1100px) {
+  .lineCol {
+    border-right: 1px solid rgba(108, 218, 255, 0.0);
+  }
+}
+
+.badge {
+  background-color: rgba(108, 218, 255, 0.15);
+  border: 1px solid rgba(108, 218, 255, 0.35);
+}
+
+@media only screen and (max-width: 1100px) {
+  .badge {
+    background-color: rgba(108, 218, 255, 0.0);
+    border: 1px solid rgba(108, 218, 255, 0.0);
+  }
+}
+/* services
+============================================================================================ */
+.services {
+  margin-top: 75px;
+  margin-bottom: 20px;
+}
+
+.service {
+  margin-top: 65px;
+}
+
+.servicesCard {
+  border: 1px solid rgba(108, 218, 255, 0.35);
+  width: 100%;
+}
+
+/* photos
+============================================================================================ */
+.carouselHolder {
+  padding-top: 75px;
+}
+
+.photosLogin {
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+#closeReg {
+  visibility: hidden;
+}
+
+#closeLogin {
+  visibility: hidden;
+}
+
+/* store
+============================================================================================ */
+.shopHolder {
+  margin-top: 60px;
+}
+
+#ajMargin {
+  margin-bottom: 40px;
+}
+
+.shopHeader {
+  text-align: left;
+}
+
+/* store
+============================================================================================ */
+#faqAccordion {
+  margin-top: 75px;
+  margin-bottom: 20px;
+}
+
+.accordionCard  {
+  border-color: rgba(108, 218, 255, 0.35);
+}
+
+.card-header  {
+  border-color: rgba(108, 218, 255, 0.35);
+  background-color: rgba(108, 218, 255, 0.01);
+}
+
+.accButton {
+  font-size: 16px;
+}
+
+/* contact
+============================================================================================ */
+.contactForm {
+  margin-top: 75px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.formLabel {
+  font-size: 16px;
+}
+
+.form-control {
+  border-color: rgba(108, 218, 255, 0.35);
+}
+
+/* htp
+============================================================================================ */
+#gameArea {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.game {
+  height: 740px;
+}
+
+.hptDescription {
+  text-align: left;
+  font-size: 16px;
+}
+
+.cont {
+  margin-top: 30px;
+}
+
+.contIcon {
+  font-size: 30px;
+}
+
+.contDesc {
+  display: inline;
+}
+
+#gameDisclaimer {
+  font-size: 12px;
+}
+
+/* scam
+============================================================================================ */
+#scamArea {
+  margin-top: 95px;
+  margin-bottom: 95px;
+}
+
+.scamTitle {
+  font-size: 44px;
+  font-weight: 900;
+  margin-bottom: 80px;
+}
+
+.ccv {
+  width: 100px;
+}
+
+#clickHereImg {
+  max-width: 420px;
+  width: 100%;
+}
+/* scam
+============================================================================================ */
+.page-footer {
+  background: #65caec;;
+}
+

@@ -1,0 +1,15 @@
+{
+"companyName": "Elbrus Games",
+"productName": "Hungry Parrot",
+"dataUrl": "Downloads.data.unityweb",
+"wasmCodeUrl": "Downloads.wasm.code.unityweb",
+"wasmFrameworkUrl": "Downloads.wasm.framework.unityweb",
+"asmCodeUrl": "Downloads.asm.code.unityweb",
+"asmMemoryUrl": "Downloads.asm.memory.unityweb",
+"asmFrameworkUrl": "Downloads.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#BF0030"
+}
